@@ -2,15 +2,15 @@
 <br>
 
 
-## COMPARAR INDICADORES DIÁRIOS E ACUMULADO DO ANO EM UMA ÚNICA PÁGINA
+## Comparar os indicadores diários e anuais acumulados.
 
 ##### Descrição
 
-Automatizar envio de relatório de vendas diárias. Calcular indicadores e enviar para os gerentes e diretores em apenas uma única página por email.
+Trata-se de automatizar o envio do relatório de vendas diárias. Também é preciso calcular os indicadores e enviar para os gerentes e diretores por email. Enviar apenas uma página com as informações.
 
 
 1. Dados - 3 Planilhas Emails, Lojas, Vendas.
-2. Enviar indicadorespor email todos os dias para os gerentes e para diretoria.
+2. Enviar indicadores todos os dias para os gerentes e para diretoria por email.
 3. Salvar Backup dos arquivos.
 
 ### MODELO DE ONEPAGE A SER ENVIADO COM RESUMO DE INDICADORES
