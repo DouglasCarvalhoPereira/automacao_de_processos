@@ -35,6 +35,10 @@ TICKET MÉDIO POR VENDA  | :9:       | :5:      |    []
 
 <br>
  
+## BIBLIOTECAS UTILIZADAS
 
+- pandas as pd
+- pathlib
+- yagmail
 
 
