@@ -1,44 +1,40 @@
-# AUTOMAÇÃO DE INDICADORES
+# AUTOMATION OF KPIS
 <br>
 
+## Compare Daily and Cumulative Annual Indicators
 
-## Comparar os indicadores diários e anuais acumulados.
+##### Description
 
-##### Descrição
+This project focuses on automating the daily sales report delivery. It also includes calculating key performance indicators (KPIs) and sending them to managers and directors via email. The goal is to send a single page with the summarized information.
 
-Trata-se de automatizar o envio do relatório de vendas diárias. Também é preciso calcular os indicadores e enviar para os gerentes e diretores por email. Enviar apenas uma página com as informações.
+1. **Data** - 3 spreadsheets: Emails, Stores, Sales.
+2. **Daily Task** - Send KPIs to managers and directors via email.
+3. **Backup** - Save backups of the files.
 
+### TEMPLATE OF ONE-PAGE SUMMARY TO BE SENT WITH KPI OVERVIEW
 
-1. Dados - 3 Planilhas Emails, Lojas, Vendas.
-2. Enviar indicadores todos os dias para os gerentes e para diretoria por email.
-3. Salvar Backup dos arquivos.
-
-### MODELO DE ONEPAGE A SER ENVIADO COM RESUMO DE INDICADORES
-
-- Indicadores diários.
-- Indicadores do ano acumulado.
+- **Daily Indicators**
+- **Cumulative Annual Indicators**
 
 <br>
 
-  :DIA:                 |:Valor Dia:|:Meta Dia:|:Cenário Dia:
-------------------------|-----------|----------|-------------
-FATURAMENTO             | :8:       | :10:     |    []
-DIVERSIDADE DE PRODUTOS | :7:       | :7:      |    []
-TICKET MÉDIO POR VENDA  | :9:       | :5:      |    []
+  :DAY:                  | :Daily Value: | :Daily Target: | :Daily Status:
+------------------------ | ------------- | -------------- | --------------
+REVENUE                  | :8:           | :10:           |    []
+PRODUCT DIVERSITY        | :7:           | :7:            |    []
+AVERAGE TICKET PER SALE  | :9:           | :5:            |    []
 
-
-  :ANO:                 |:Valor Dia:|:Meta Dia:|:Cenário Dia:
-------------------------|-----------|----------|-------------
-FATURAMENTO             | :8:       | :10:     |    []
-DIVERSIDADE DE PRODUTOS | :7:       | :7:      |    []
-TICKET MÉDIO POR VENDA  | :9:       | :5:      |    []
+  :YEAR:                 | :Annual Value: | :Annual Target: | :Annual Status:
+------------------------ | ---------------| --------------- | ---------------
+REVENUE                  | :8:            | :10:            |    []
+PRODUCT DIVERSITY        | :7:            | :7:             |    []
+AVERAGE TICKET PER SALE  | :9:            | :5:             |    []
 
 <br>
- 
-## BIBLIOTECAS UTILIZADAS
+
+## LIBRARIES USED
 
 - pandas as pd
 - pathlib
 - yagmail
-
 
